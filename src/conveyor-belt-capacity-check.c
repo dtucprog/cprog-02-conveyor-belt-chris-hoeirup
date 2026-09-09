@@ -13,9 +13,9 @@ int main() {
     printf("\n Enter total package weight %d\n", totalPackageWeight);
     
     int capacity = motorCount * MOTOR_CAPACITY;
-    int load = totalPackageWeight * motorCount;
 
-    if (capacity >= load ){
+
+    if (capacity >= totalPackageWeight ){
         printf ("Yes! The conveyor belt can carry the packages.");
     }
     else{
